@@ -1,0 +1,13 @@
+<Extensions>
+  <Version>1.7</Version>
+  <Panel>
+    <Order>2</Order>
+    <PanelId>callmsteams</PanelId>
+    <Origin>local</Origin>
+    <Type>Statusbar</Type>
+    <Icon>Camera</Icon>
+    <Color>#A866FF</Color>
+    <Name>Join MS Teams</Name>
+    <ActivityType>Custom</ActivityType>
+  </Panel>
+</Extensions>
