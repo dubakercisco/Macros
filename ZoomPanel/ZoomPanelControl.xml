@@ -1,0 +1,105 @@
+<Extensions>
+  <Version>1.7</Version>
+  <Panel>
+    <Order>4</Order>
+    <PanelId>panel_1</PanelId>
+    <Origin>local</Origin>
+    <Type>InCall</Type>
+    <Icon>Sliders</Icon>
+    <Color>#A866FF</Color>
+    <Name>Zoom Controls</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Zoom In Call Control Panel</Name>
+      <Row>
+        <Name>Call Controls</Name>
+        <Widget>
+          <WidgetId>changelayout</WidgetId>
+          <Name>Change Layout</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>audiomute</WidgetId>
+          <Name>Mute</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Meeting Controls</Name>
+        <Widget>
+          <WidgetId>videomute</WidgetId>
+          <Name>Video Mute</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>record</WidgetId>
+          <Name>Record</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>videonames</WidgetId>
+          <Name>Show/Hide Names</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>participants</WidgetId>
+          <Name>Show Participants</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>chat</WidgetId>
+          <Name>Show/Hide Chat</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>captions</WidgetId>
+          <Name>Show/Hide Captions</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Gallery View Controls</Name>
+        <Widget>
+          <WidgetId>gallerynext</WidgetId>
+          <Name>Next</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>galleryprevious</WidgetId>
+          <Name>Previous</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Exit</Name>
+        <Widget>
+          <WidgetId>widget_14</WidgetId>
+          <Type>Spacer</Type>
+          <Options>size=1</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>exit</WidgetId>
+          <Name>Menu Exit</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>widget_12</WidgetId>
+          <Type>Spacer</Type>
+          <Options>size=1</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>
