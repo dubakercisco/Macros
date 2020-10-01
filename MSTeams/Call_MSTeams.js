@@ -37,7 +37,7 @@ function showDialPad(text){
 /* This is the listener for the in-room control panel button that will trigger the dial panel to appear */
 xapi.event.on('UserInterface Extensions Panel Clicked', (event) => {
     if(event.PanelId === INROOMCONTROL_AUDIOCONTROL_PANELID){
-         showDialPad("Enter the zoom meeting id from your invite:" );
+         showDialPad("Enter the Microsoft meeting ID from your invite:" );
     }
 });
 
