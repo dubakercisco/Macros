@@ -40,30 +40,40 @@ xapi.Event.UserInterface.Extensions.Widget.Action.on((event) => {
   if (event.Type !== 'pressed'){
     return;
   }
-    switch (event.WidgetId) {
-      case "changelayout":
-        return sendDTMF(11, 'Change Layout was Pressed');
+
+  switch (event.WidgetId) {
+    case "changelayout":
+      return sendDTMF(11, 'Change Layout was Pressed');
+    
+    case "audiomute":
+      return sendDTMF(12, 'Audio was Pressed');
       
-      case "audiomute":
-        return sendDTMF(12, 'Audio was Pressed');
-        
-      case "videomute":
-        return sendDTMF(14, 'Video Mute was Pressed');
-        
-      case "record":
-        return sendDTMF(15, 'Record was Pressed');
-        
-      case "videonames":
-        return sendDTMF(102, 'Show/Hide Names was Pressed');
-        
-      case "mute_on_entry":
-        return sendDTMF(103, 'Mute on Entry was Pressed');
-        
-      case "participants_show":
-        return sendDTMF(106, 'Show Participants was Pressed');
-        
-      case "exit":
-        return sendDTMF("*", 'Exit was Pressed');
-        
-    }});
+    case "videomute":
+      return sendDTMF(14, 'Video Mute was Pressed');
+      
+    case "record":
+      return sendDTMF(15, 'Record was Pressed');
+      
+    case "videonames":
+      return sendDTMF(102, 'Toggle Names was Pressed');
+    
+    case "participants":
+      return sendDTMF(106, 'Show Participants was Pressed');
+
+    case "chat":
+      return sendDTMF(107, 'Toggle Chat was Pressed');
+
+    case "captions":
+      return sendDTMF(108, 'Toggle Chat was Pressed');
+
+    case "gallerynext":
+      return sendDTMF(106, 'Gallery Next was Pressed');
+
+    case "galleryprevious":
+      return sendDTMF(104, 'Gallery Previous was Pressed');     
+      
+    case "exit":
+      return sendDTMF("*", 'Exit was Pressed');   
+  }
+});
 

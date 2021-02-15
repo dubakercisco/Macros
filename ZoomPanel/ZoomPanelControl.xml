@@ -1,7 +1,7 @@
 <Extensions>
-  <Version>1.7</Version>
+  <Version>1.8</Version>
   <Panel>
-    <Order>4</Order>
+    <Order>1</Order>
     <PanelId>panel_1</PanelId>
     <Origin>local</Origin>
     <Type>InCall</Type>
@@ -42,7 +42,7 @@
         </Widget>
         <Widget>
           <WidgetId>videonames</WidgetId>
-          <Name>Show/Hide Names</Name>
+          <Name>Toggle Names</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
@@ -54,13 +54,13 @@
         </Widget>
         <Widget>
           <WidgetId>chat</WidgetId>
-          <Name>Show/Hide Chat</Name>
+          <Name>Toggle Chat</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
         <Widget>
           <WidgetId>captions</WidgetId>
-          <Name>Show/Hide Captions</Name>
+          <Name>Toggle Captions</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
